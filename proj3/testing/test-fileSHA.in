@@ -1,0 +1,22 @@
+> init
+<<<
++ f.txt wug.txt
+> add f.txt
+<<<
+> commit "wug"
+<<<
++ f.txt notwug.txt
+> add f.txt
+<<<
+> commit "f not wug"
+<<<
++ g.txt wug.txt
+> add g.txt
+<<<
+> commit "g is a wug, f not wug"
+<<<
++ f.txt wug.txt
+> add f.txt
+<<<
+> commit "g wug,  f wug again"
+<<<
